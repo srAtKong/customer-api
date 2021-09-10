@@ -38,7 +38,7 @@ jobs:
           tar -xf deck.tar.gz -C /tmp
           sudo cp /tmp/deck /usr/local/bin/ 
       - name: Install inso
-        run: npm install -g insomnia-inso kong-portal-cli@3.1.0 
+        run: npm install -g insomnia-inso@2.3.0 kong-portal-cli@3.1.0 
      
           
       # API Spec linting
